@@ -1,0 +1,137 @@
+[
+    {
+        "type": "header",
+        "version": "5.2.1",
+        "comment": "Export to JSON plugin for PHPMyAdmin"
+    },
+    {
+        "type": "database",
+        "name": "news_project"
+    },
+    {
+        "type": "table",
+        "name": "category",
+        "database": "news_project",
+        "data": [
+            {
+                "category_id": "30",
+                "category_name": "Entertainment",
+                "post": "5"
+            },
+            {
+                "category_id": "32",
+                "category_name": "Politics",
+                "post": "1"
+            },
+            {
+                "category_id": "33",
+                "category_name": "road",
+                "post": "1"
+            }
+        ]
+    },
+    {
+        "type": "table",
+        "name": "post",
+        "database": "news_project",
+        "data": [
+            {
+                "post_id": "61",
+                "title": "admin1",
+                "description": "admin1",
+                "category": "30",
+                "post_date": "15 Aug, 2024",
+                "author": "27",
+                "post_img": "test5-removebg-preview.png"
+            },
+            {
+                "post_id": "62",
+                "title": "admin1",
+                "description": "second",
+                "category": "30",
+                "post_date": "15 Aug, 2024",
+                "author": "27",
+                "post_img": "hero1.webp"
+            },
+            {
+                "post_id": "63",
+                "title": "user1",
+                "description": "user1 first",
+                "category": "30",
+                "post_date": "17 Aug, 2024",
+                "author": "39",
+                "post_img": "hero1.webp"
+            },
+            {
+                "post_id": "64",
+                "title": "user2",
+                "description": "user2 first",
+                "category": "30",
+                "post_date": "15 Aug, 2024",
+                "author": "40",
+                "post_img": "addtest-removebg-preview.png"
+            },
+            {
+                "post_id": "65",
+                "title": "entertainment 4",
+                "description": "entertainment is the best way ",
+                "category": "32",
+                "post_date": "17 Aug, 2024",
+                "author": "27",
+                "post_img": "addtest-removebg-preview.png"
+            },
+            {
+                "post_id": "66",
+                "title": "admin latest",
+                "description": "latest news",
+                "category": "33",
+                "post_date": "17 Aug, 2024",
+                "author": "27",
+                "post_img": "test5-removebg-preview.png"
+            }
+        ]
+    },
+    {
+        "type": "table",
+        "name": "setting",
+        "database": "news_project",
+        "data": [
+            {
+                "website_name": "NEWS Blog",
+                "logo": "news.jpg",
+                "footer": "© Copyright 2021 NEWS | <a href=\"https:\/\/muhammadrafayshaikh.github.io\/Monument\/\" target=\"blank\">Muhammad Rafay Shaikh<\/a>\r\n"
+            }
+        ]
+    },
+    {
+        "type": "table",
+        "name": "user",
+        "database": "news_project",
+        "data": [
+            {
+                "user_id": "39",
+                "first_name": "user",
+                "last_name": "1",
+                "username": "user1",
+                "password": "12dea96fec20593566ab75692c9949596833adc9",
+                "role": "0"
+            },
+            {
+                "user_id": "27",
+                "first_name": "Muhammad",
+                "last_name": "Rafay",
+                "username": "rafay123",
+                "password": "e5257f299886ef54e6339b7724945828995712d3",
+                "role": "1"
+            },
+            {
+                "user_id": "40",
+                "first_name": "user",
+                "last_name": "2",
+                "username": "user2",
+                "password": "12dea96fec20593566ab75692c9949596833adc9",
+                "role": "0"
+            }
+        ]
+    }
+]

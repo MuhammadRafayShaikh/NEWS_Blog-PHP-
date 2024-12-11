@@ -1,0 +1,12 @@
+Admin Credentials
+username: rafay123
+password: rafay6744
+
+Normal User Credentials
+username: user1
+password: user
+
+Admin Dashboard Url: http://localhost/news-project/news-template/admin/
+
+Database is in news-template/database folder, Create Database with name 'news_project' and import database from news-template/database folder
+Database is also available in database folder
